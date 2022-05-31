@@ -29,7 +29,7 @@ function CircleChart(props) {
   return (
     <div>
       <div> </div>
-      <ResponsiveContainer width={400} height={300}>
+      <ResponsiveContainer width="100%" aspect={1.5} height={300}>
         <PieChart>
           <Pie
             data={langData}

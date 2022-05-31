@@ -18,7 +18,7 @@ function Repos(props) {
     setClicked((prev) => !prev);
   };
   //   Github api token
-  const token = "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";
+  const token = "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";
 
   useEffect(() => {
     fetch(`https://api.github.com/users/${props.username}/repos`, {
